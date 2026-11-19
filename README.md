@@ -1,75 +1,45 @@
-# React + TypeScript + Vite
+# Kalkulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi kalkulator sederhana berbasis web yang dikembangkan menggunakan React, TypeScript, dan Vite, serta dikonfigurasi menggunakan Capacitor untuk Android.
 
-Currently, two official plugins are available:
+## Teknologi
+- React
+- TypeScript
+- Vite
+- Capacitor
+- Android
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Menjalankan Project
 
-## React Compiler
+Install dependencies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+\\\ash
+npm install
+\\\
 
-## Expanding the ESLint configuration
+Jalankan development server:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+\\\ash
+npm run dev
+\\\
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Build APK Android
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Masuk ke folder Android:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+\\\ash
+cd android
+\\\
 
-```
+Build debug APK:
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+\\\ash
+.\gradlew.bat assembleDebug
+\\\
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+File APK tersedia di:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+\ndroid/app/build/outputs/apk/debug/app-debug.apk\
 
-```
+## Status
+Project masih dalam tahap pengembangan.
