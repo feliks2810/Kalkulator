@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "skills": {
+    "capacitor-best-practices": {
+      "source": "Cap-go/capgo-skills",
+      "commit": "e82217b8fa76e11a2b2fdb49c6a221df8359cb54",
+      "sourceType": "github",
+      "skillPath": "skills/capacitor-best-practices/SKILL.md",
+      "computedHash": "541b0dd17db972b1eee59ccab876e68e5db99d130c09db2c43a88afb95154db9",
+      "installMode": "copy"
+    },
+    "capacitor-ci-cd": {
+      "source": "Cap-go/capgo-skills",
+      "commit": "e82217b8fa76e11a2b2fdb49c6a221df8359cb54",
+      "sourceType": "github",
+      "skillPath": "skills/capacitor-ci-cd/SKILL.md",
+      "computedHash": "ac3286d98bf7d58532605bf4ac747f2978c986221aed793aed2695029a8e2f2f",
+      "installMode": "copy"
+    },
+    "capacitor-plugins": {
+      "source": "Cap-go/capgo-skills",
+      "commit": "e82217b8fa76e11a2b2fdb49c6a221df8359cb54",
+      "sourceType": "github",
+      "skillPath": "skills/capacitor-plugins/SKILL.md",
+      "computedHash": "b71ce7f9743e6288c8886e345f381b8c2795ce1a41ad43053faf7c297241edbc",
+      "installMode": "copy"
+    },
+    "capacitor-security": {
+      "source": "Cap-go/capgo-skills",
+      "commit": "e82217b8fa76e11a2b2fdb49c6a221df8359cb54",
+      "sourceType": "github",
+      "skillPath": "skills/capacitor-security/SKILL.md",
+      "computedHash": "62891d2b3adeeac2fbcfc891786b788531eb405bd190b81a0863feebdea1d932",
+      "installMode": "copy"
+    },
+    "capacitor-testing": {
+      "source": "Cap-go/capgo-skills",
+      "commit": "e82217b8fa76e11a2b2fdb49c6a221df8359cb54",
+      "sourceType": "github",
+      "skillPath": "skills/capacitor-testing/SKILL.md",
+      "computedHash": "65e8edebec22d481f395b543b5aa5f93721247326080b9be389186d79d29f454",
+      "installMode": "copy"
+    },
+    "debugging-capacitor": {
+      "source": "Cap-go/capgo-skills",
+      "commit": "e82217b8fa76e11a2b2fdb49c6a221df8359cb54",
+      "sourceType": "github",
+      "skillPath": "skills/debugging-capacitor/SKILL.md",
+      "computedHash": "f9b448a867a81c0d3bbb3371edb75f1fed911c7e1b7b1cd0caa408df11d80c7a",
+      "installMode": "copy"
+    },
+    "frontend-design": {
+      "source": "anthropics/claude-plugins-official",
+      "commit": "df9699a55c56707e9948a32951ea356638ea8519",
+      "sourceType": "github",
+      "skillPath": "plugins/frontend-design/skills/frontend-design/SKILL.md",
+      "computedHash": "83485963700bcf11d5bf78118facb301676b69d918fee2e45a95e7f1a2840f6c",
+      "installMode": "copy"
+    }
+  }
+}
